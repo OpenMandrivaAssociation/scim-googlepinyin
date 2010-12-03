@@ -3,7 +3,7 @@
 Summary: An SCIM port of android Google Pinyin IME
 Name: scim-googlepinyin
 Version: 0.1
-Release: %mkrel -c %snapdate 1
+Release: %mkrel -c %snapdate 2
 License: ASL 2.0
 Group: System/Internationalization
 URL: http://code.google.com/p/scim-googlepinyin/
