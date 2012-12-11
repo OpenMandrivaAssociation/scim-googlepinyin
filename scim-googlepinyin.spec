@@ -45,3 +45,23 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/scim/googlepinyin
 %{_datadir}/scim/icons/google-pinyin_icon.png
 %{scim_plugins_dir}/*/*.so
+
+
+%changelog
+* Fri Dec 24 2010 Funda Wang <fwang@mandriva.org> 0.1-0.20101114.1mdv2011.0
++ Revision: 624572
+- new snapshot
+
+* Fri Dec 03 2010 Oden Eriksson <oeriksson@mandriva.com> 0.1-0.20091231.2mdv2011.0
++ Revision: 607519
+- rebuild
+
+* Sun Jan 03 2010 Funda Wang <fwang@mandriva.org> 0.1-0.20091231.1mdv2010.1
++ Revision: 485769
+- new version 20091231
+
+* Sat Dec 26 2009 Funda Wang <fwang@mandriva.org> 0.1-0.20091225.1mdv2010.1
++ Revision: 482553
+- import scim-googlepinyin
+
+
