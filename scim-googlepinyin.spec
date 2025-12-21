@@ -13,6 +13,11 @@ URL: https://code.google.com/p/scim-googlepinyin/
 # git archive --format=tar --prefix=scim-googlepinyin/ HEAD | xz> scim-googlepinyin-%{snapdate}.tar.xz
 Source: %{name}-%{snapdate}.tar.xz
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: scim-devel >= 1.4.8
 Requires: scim-client
 
